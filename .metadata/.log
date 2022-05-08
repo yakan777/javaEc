@@ -10095,3 +10095,15 @@ Caused by: java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 77 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 14:37:58.763
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KCOoevbo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 14:37:58.763
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KCOoevbo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 14:37:58.778
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-06 14:37:58.778
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KCOoevbo => OK
