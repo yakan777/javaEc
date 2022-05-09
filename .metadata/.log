@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2022-05-09 17:17:44.563 -----------------------------------------------
+=======
+!SESSION 2022-05-09 08:40:11.915 -----------------------------------------------
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 !SESSION 2022-05-09 08:40:11.915 -----------------------------------------------
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
@@ -16,6 +20,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a continuation of log file C:\Users\YN\Desktop\javaEc\.metadata\.bak_0.log
 Created Time: 2022-05-10 07:16:11.957
 
@@ -24,6 +29,8 @@ Created Time: 2022-05-10 07:16:11.957
 !STACK 0
 org.eclipse.swt.SWTException: Widget is disposed
 =======
+=======
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 This is a continuation of log file C:\Users\0314AM\Desktop\javaEc\.metadata\.bak_0.log
@@ -75,6 +82,15 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <<<<<<< HEAD
+<<<<<<< HEAD
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:24.222
+=======
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
@@ -184,6 +200,103 @@ Caused by: java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 77 more
 
+!ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:25.565
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+!MESSAGE 未処理のイベント・ループ例外
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git\mingw64\share\git\git-for-windows.ico (指定されたパスが見つかりません。))
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:361)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:256)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:463)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5159)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4791)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2142)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4067)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3620)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git\mingw64\share\git\git-for-windows.ico (指定されたパスが見つかりません。))
+	at org.eclipse.swt.SWT.error(SWT.java:4875)
+	at org.eclipse.swt.SWT.error(SWT.java:4790)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:184)
+	at org.eclipse.tm.terminal.view.ui.local.showin.ExternalExecutablesManager.loadImage(ExternalExecutablesManager.java:282)
+	at org.eclipse.tm.terminal.view.ui.local.showin.DynamicContributionItems.getContributionItems(DynamicContributionItems.java:74)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:146)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:729)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:806)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:673)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1226)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicVisible(MenuManagerRenderer.java:213)
+	at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 63 more
+Caused by: java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git\mingw64\share\git\git-for-windows.ico (指定されたパスが見つかりません。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
+	... 77 more
+
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:25.565
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 !MESSAGE 未処理のイベント・ループ例外
@@ -379,6 +492,11 @@ Caused by: java.io.FileNotFoundException: C:\Users\YN\AppData\Local\Programs\Git
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:36.045
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
+=======
+!ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:36.045
+!MESSAGE 未処理のイベント・ループ例外
+!STACK 0
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:31:36.045
 !MESSAGE 未処理のイベント・ループ例外
@@ -792,6 +910,9 @@ org.eclipse.swt.SWTException: Widget is disposed
 !STACK 0
 org.eclipse.swt.SWTException: Widget is disposed
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+=======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
@@ -816,7 +937,10 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at com.eclipserunner.views.impl.RunnerView$7.run(RunnerView.java:571)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
@@ -1365,6 +1489,7 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.ui.dialogs.FilteredTree$NotifyingTreeViewer.refresh(FilteredTree.java:978)
 	at com.eclipserunner.views.impl.RunnerView$7.run(RunnerView.java:571)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
 	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
@@ -1537,6 +1662,8 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at com.eclipserunner.views.impl.RunnerView$7.run(RunnerView.java:571)
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+=======
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
 	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
@@ -1566,7 +1693,11 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:59:02.186
+=======
+!ENTRY org.eclipse.ui 4 0 2022-05-09 10:58:57.387
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:58:57.387
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
@@ -1686,7 +1817,11 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:59:02.332
+=======
+!ENTRY org.eclipse.ui 4 0 2022-05-09 10:58:57.508
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:58:57.508
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
@@ -1741,7 +1876,10 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 !ENTRY org.eclipse.ui 4 0 2022-05-09 10:59:02.186
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
@@ -1909,6 +2047,9 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
+<<<<<<< HEAD
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+=======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 !ENTRY org.eclipse.lsp4e 2 0 2022-05-09 11:03:45.427
 !MESSAGE Timeout waiting for data to generate LS hover
@@ -9960,6 +10101,7 @@ Binding(CTRL+SHIFT+C,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
@@ -9975,3 +10117,5 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-10 07:29:40.233
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.voRNtsxy => OK
+=======
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
