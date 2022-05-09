@@ -20,6 +20,7 @@
             <entry path="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\java\8\jre\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\eclipse\jre" version="11.0.9"/>
     <libraryInfo home="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\java\7" version="1.7.0_80">
         <bootpath>
             <entry path="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\java\7\jre\lib\resources.jar"/>
@@ -58,6 +59,7 @@
             <entry path="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\java\6\jre\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\eclipse" version="11.0.9"/>
     <libraryInfo home="C:\Users\YN\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\java\15" version="15.0.1"/>
     <libraryInfo home="C:\Users\0314AM\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\eclipse\jre" version="11.0.9"/>
     <libraryInfo home="C:\Users\0314AM\pleiades-2020-12-java-win-64bit-jre_20201222\pleiades\eclipse" version="11.0.9"/>
