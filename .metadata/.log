@@ -9963,3 +9963,15 @@ Binding(CTRL+SHIFT+C,
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
 =======
 >>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-10 07:29:40.093
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.voRNtsxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-10 07:29:40.133
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.voRNtsxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-10 07:29:40.164
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-10 07:29:40.233
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.voRNtsxy => OK
