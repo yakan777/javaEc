@@ -1,5 +1,11 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=877b9d9796ed85ac5cf2470e7d95beabb701bdef
 eclipse.preferences.version=1
 org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1652084652593" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1651794084308" name\="jre" path\="C\:\\Users\\0314AM\\pleiades-2020-12-java-win-64bit-jre_20201222\\pleiades\\eclipse\\jre"/>\r\n        <vm id\="1652084652593" javadocURL\="http\://docs.oracle.com/javase/jp/11/docs/api/" name\="jre" path\="C\:\\Users\\YN\\pleiades-2020-12-java-win-64bit-jre_20201222\\pleiades\\eclipse\\jre"/>\r\n    </vmType>\r\n</vmSettings>\r\n
+=======
+>>>>>>>=b85141ba1db4fde7b8fe26241fe7e911bf864d21
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1651794084308" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1651794084308" name\="jre" path\="C\:\\Users\\0314AM\\pleiades-2020-12-java-win-64bit-jre_20201222\\pleiades\\eclipse\\jre"/>\r\n    </vmType>\r\n</vmSettings>\r\n
+>>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
