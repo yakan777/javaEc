@@ -9635,3 +9635,15 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-09 14:48:33.523
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XGdrjaXV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-09 14:48:33.539
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XGdrjaXV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-09 14:48:33.539
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-09 14:48:33.539
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XGdrjaXV => OK
