@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650961142961_0" label="Java Main Sources" name="Java Main Sources"/>
-<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650961142976_1" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650961145429_2" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1650961145429"/>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652053236775_3" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1652053236775"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652084647777_4" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1652084647777"/>
-=======
->>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
-=======
->>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
-=======
->>>>>>> 877b9d9796ed85ac5cf2470e7d95beabb701bdef
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652140638999_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652140639015_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652140641296_2" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1652140641296"/>
 </workingSetManager>
