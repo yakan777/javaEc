@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_jSBt4NpZEeyeJYZu_ImBzw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_jSBt4dpZEeyeJYZu_ImBzw" bindingContexts="_jSB1BNpZEeyeJYZu_ImBzw">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;nine.jsp&quot; tooltip=&quot;Fortune/WebContent/nine.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Fortune/WebContent/nine.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;sample.jsp&quot; tooltip=&quot;Fortune/WebContent/sample.jsp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Fortune/WebContent/sample.jsp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Index.java&quot; tooltip=&quot;Fortune/src/servlet/Index.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Fortune/src/servlet/Index.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SampleServlet.java&quot; tooltip=&quot;Fortune/src/servlet/SampleServlet.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Fortune/src/servlet/SampleServlet.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;index.html&quot; tooltip=&quot;HelloServerSide/WebContent/index.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HelloServerSide/WebContent/index.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StoneApp.java&quot; tooltip=&quot;stoneApp/src/stoneApp/StoneApp.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/stoneApp/src/stoneApp/StoneApp.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlgoPract.java&quot; tooltip=&quot;Renshu/src/renshu/AlgoPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/AlgoPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test2Review.java&quot; tooltip=&quot;Renshu/src/renshu/Test2Review.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/Test2Review.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LSMPract.java&quot; tooltip=&quot;Renshu/src/renshu/LSMPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/LSMPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_jSBt4dpZEeyeJYZu_ImBzw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_jSBt4tpZEeyeJYZu_ImBzw" label="%trimmedwindow.label.eclipseSDK" x="899" y="4" width="1024" height="768">
+=======
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vNgJAc_zEeydY8D3YiAuTQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_vNgJAs_zEeydY8D3YiAuTQ" bindingContexts="_vNgwEs_zEeydY8D3YiAuTQ">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlgoPract.java&quot; tooltip=&quot;Renshu/src/renshu/AlgoPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/AlgoPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test2Review.java&quot; tooltip=&quot;Renshu/src/renshu/Test2Review.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/Test2Review.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StringPract.java&quot; tooltip=&quot;Renshu/src/renshu/StringPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/StringPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StoneApp.java&quot; tooltip=&quot;stoneApp/src/stoneApp/StoneApp.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/stoneApp/src/stoneApp/StoneApp.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MonsterPract.java&quot; tooltip=&quot;Renshu/src/renshu/MonsterPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/MonsterPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LSMPract.java&quot; tooltip=&quot;Renshu/src/renshu/LSMPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/LSMPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Enlarg.java&quot; tooltip=&quot;Renshu/src/renshu/Enlarg.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/Enlarg.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_vNgJAs_zEeydY8D3YiAuTQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wT0348_zEeydY8D3YiAuTQ" label="%trimmedwindow.label.eclipseSDK" x="437" y="110" width="1024" height="768">
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
 =======
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vNgJAc_zEeydY8D3YiAuTQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_vNgJAs_zEeydY8D3YiAuTQ" bindingContexts="_vNgwEs_zEeydY8D3YiAuTQ">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlgoPract.java&quot; tooltip=&quot;Renshu/src/renshu/AlgoPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/AlgoPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test2Review.java&quot; tooltip=&quot;Renshu/src/renshu/Test2Review.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/Test2Review.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StringPract.java&quot; tooltip=&quot;Renshu/src/renshu/StringPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/StringPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StoneApp.java&quot; tooltip=&quot;stoneApp/src/stoneApp/StoneApp.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/stoneApp/src/stoneApp/StoneApp.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MonsterPract.java&quot; tooltip=&quot;Renshu/src/renshu/MonsterPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/MonsterPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LSMPract.java&quot; tooltip=&quot;Renshu/src/renshu/LSMPract.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/LSMPract.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Enlarg.java&quot; tooltip=&quot;Renshu/src/renshu/Enlarg.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Renshu/src/renshu/Enlarg.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
@@ -26,10 +33,13 @@
     <tags>topLevel</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <children xsi:type="basic:PartSashContainer" xmi:id="_jSBt4tpZEeyeJYZu_ImBzw" selectedElement="_jSBt49pZEeyeJYZu_ImBzw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_jSBt49pZEeyeJYZu_ImBzw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_jSBt-9pZEeyeJYZu_ImBzw">
         <children xsi:type="advanced:Perspective" xmi:id="_jSBt5NpZEeyeJYZu_ImBzw" elementId="jp.sourceforge.mergedoc.PleiadesJavaPerspective" selectedElement="_jSBt5dpZEeyeJYZu_ImBzw" label="Java" iconURI="platform:/plugin/jp.sourceforge.mergedoc.PleiadesJavaPerspective/icons/jperspective.png">
 =======
+=======
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
 =======
 >>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
     <tags>shellMaximized</tags>
@@ -355,6 +365,7 @@
     </sharedElements>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sharedElements xsi:type="advanced:Area" xmi:id="_jSBwgdpZEeyeJYZu_ImBzw" elementId="org.eclipse.ui.editorss" selectedElement="_jSBwgtpZEeyeJYZu_ImBzw">
       <children xsi:type="basic:PartStack" xmi:id="_jSBwgtpZEeyeJYZu_ImBzw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_jSBwg9pZEeyeJYZu_ImBzw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
@@ -381,11 +392,21 @@
         <children xsi:type="basic:Part" xmi:id="_Jcct8NQtEeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Enlarg.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Enlarg.java&quot; partName=&quot;Enlarg.java&quot; title=&quot;Enlarg.java&quot; tooltip=&quot;Renshu/src/renshu/Enlarg.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/Enlarg.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;569&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
 >>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_wckkMM_zEeydY8D3YiAuTQ" elementId="org.eclipse.ui.editorss" selectedElement="_wckkMc_zEeydY8D3YiAuTQ">
+      <children xsi:type="basic:PartStack" xmi:id="_wckkMc_zEeydY8D3YiAuTQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Jcct8NQtEeyqAOGLcOdjMA">
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_Jcct8NQtEeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Enlarg.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Enlarg.java&quot; partName=&quot;Enlarg.java&quot; title=&quot;Enlarg.java&quot; tooltip=&quot;Renshu/src/renshu/Enlarg.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/Enlarg.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;569&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>active</tags>
         </children>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <children xsi:type="basic:Part" xmi:id="_jSBwidpZEeyeJYZu_ImBzw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SampleServlet.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
@@ -396,6 +417,28 @@
 =======
         <children xsi:type="basic:Part" xmi:id="_Y2wmMNQ1EeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LSMPract.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LSMPract.java&quot; partName=&quot;LSMPract.java&quot; title=&quot;LSMPract.java&quot; tooltip=&quot;Renshu/src/renshu/LSMPract.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/LSMPract.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;835&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+        <children xsi:type="basic:Part" xmi:id="_Y2wmMNQ1EeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LSMPract.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LSMPract.java&quot; partName=&quot;LSMPract.java&quot; title=&quot;LSMPract.java&quot; tooltip=&quot;Renshu/src/renshu/LSMPract.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/LSMPract.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;835&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_sznSANQ8EeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StringPract.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StringPract.java&quot; partName=&quot;StringPract.java&quot; title=&quot;StringPract.java&quot; tooltip=&quot;Renshu/src/renshu/StringPract.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/StringPract.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2&quot; selectionTopPixel=&quot;188&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Ji6vENQ9EeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Test2Review.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test2Review.java&quot; partName=&quot;Test2Review.java&quot; title=&quot;Test2Review.java&quot; tooltip=&quot;Renshu/src/renshu/Test2Review.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/Test2Review.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_rTvZsNRHEeyqAOGLcOdjMA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AlgoPract.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlgoPract.java&quot; partName=&quot;AlgoPract.java&quot; title=&quot;AlgoPract.java&quot; tooltip=&quot;Renshu/src/renshu/AlgoPract.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Renshu/src/renshu/AlgoPract.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;173&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -660,7 +703,11 @@
         <tags>Draggable</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_jSByIdpZEeyeJYZu_ImBzw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x5370;&#x5237;" command="_jSB_TtpZEeyeJYZu_ImBzw"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vwiJYNQsEeyqAOGLcOdjMA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x5370;&#x5237;" command="_vQkrS8_zEeydY8D3YiAuTQ"/>
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
 =======
         <children xsi:type="menu:HandledToolItem" xmi:id="_vwiJYNQsEeyqAOGLcOdjMA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="&#x5370;&#x5237;" command="_vQkrS8_zEeydY8D3YiAuTQ"/>
 >>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
@@ -708,6 +755,7 @@
         <tags>Draggable</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_jSByldpZEeyeJYZu_ImBzw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x30a8;&#x30c7;&#x30a3;&#x30bf;&#x30fc;&#x306e;&#x30d4;&#x30f3;&#x7559;&#x3081;" type="Check" command="_jSB-69pZEeyeJYZu_ImBzw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jSBymtpZEeyeJYZu_ImBzw" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
@@ -724,6 +772,9 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jSBynNpZEeyeJYZu_ImBzw" elementId="org.eclipse.jst.jsp.core.jspsource.source" visible="false">
         <tags>Draggable</tags>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vwno8NQsEeyqAOGLcOdjMA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="&#x30a8;&#x30c7;&#x30a3;&#x30bf;&#x30fc;&#x306e;&#x30d4;&#x30f3;&#x7559;&#x3081;" type="Check" command="_vQkEFM_zEeydY8D3YiAuTQ"/>
+>>>>>>> 6a275b10826b05228d68c02485966bbc77421bb1
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jSByndpZEeyeJYZu_ImBzw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
