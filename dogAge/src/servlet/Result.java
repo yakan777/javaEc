@@ -26,7 +26,7 @@ public class Result extends HttpServlet {
 		if(age == null || age.length() == 0){
 			errorMsg += "年齢が入力されていません<br>";
 		}
-		
+
 
 		int ageB =Integer.parseInt(age);
 
@@ -38,7 +38,7 @@ public class Result extends HttpServlet {
 		int sum =ageB*7;
 
 		String msg = name+"("+age+"歳)は人間に換算すると"+sum+"歳です。";
-		
+
 
 		if(errorMsg.length() != 0) {
 			msg = errorMsg;
