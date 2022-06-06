@@ -2,18 +2,19 @@ package model;
 
 import java.io.Serializable;
 
-public class Todo implements Serializable{
+public class Todo implements Serializable {
 	private int id;
 	private String title;
 	private int importance;
+
 	public Todo() {}
 	public Todo(String title,int importance) {
 		this.title=title;
 		this.importance=importance;
 	}
-	public Todo(int id, String title, int importance) {
+	public Todo(int id,String title,int importance) {
 		this(title,importance);
-		this.id = id;
+		this.id=id;
 	}
 	public int getId() {
 		return id;
@@ -33,6 +34,7 @@ public class Todo implements Serializable{
 	public void setImportance(int importance) {
 		this.importance = importance;
 	}
+
 	public String getStar() {
 		String stars="";
 		for(int i=0;i<this.importance;i++) {
@@ -40,7 +42,6 @@ public class Todo implements Serializable{
 		}
 		return stars;
 	}
-
 
 
 }
