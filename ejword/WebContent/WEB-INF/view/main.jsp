@@ -97,7 +97,7 @@ value="<%=ejw.getSearchWord() %>" >
 <ul class='pagination'>
 <% for(String[] row:ejw.getPager()){ %>
 <li class="<%=row[0]%>">
-<a href="/ejword.main?searchWord=<%=ejw.getSearchWord()%>
+<a href="/ejword/main?searchWord=<%=ejw.getSearchWord()%>
 &mode=<%=ejw.getMode()%>&page=<%=row[1] %>"><%=row[2] %></a>
 </li>
 <%} %>
