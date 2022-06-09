@@ -73,6 +73,7 @@ value="<%=searchWord %>" >
 &mode=<%=mode %>&page=<%=pageNo+1%>">次へ
 <span aria-hidden="true">&rarr;</span></a></li>
 
+
 <%} %>
 </ul>
 <%} %>
