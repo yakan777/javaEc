@@ -2,6 +2,7 @@
     pageEncoding="UTF-8" import="java.util.*,model.*"%>
 <%
 List<String> area=(List<String>)request.getAttribute("area");
+String train=(String)request.getAttribute("train");
 List<Station> list=(List<Station>)request.getAttribute("list");
 
 
@@ -15,7 +16,7 @@ List<Station> list=(List<Station>)request.getAttribute("list");
 <body>
 <p>路線を選んでください</p>
 <form action="/stationapp/Main" method="post">
-<select name="area">
+<select name="train">
 <%for(String s:area) {%>
 <option value="<%=s%>"><%=s%></option>
 <%} %>
@@ -23,6 +24,7 @@ List<Station> list=(List<Station>)request.getAttribute("list");
 <input type="submit" value="送信">
 </form>
 <%if(list !=null && list.size()>0){ %>
+<p><%=train %>の駅一覧</p>
 <table border="1">
 <tr><th>駅名</th><th>都道府県</th></tr>
 <%for(Station s:list){ %>
