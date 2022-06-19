@@ -57,84 +57,53 @@ footer {
 				<option value="endsWith"
 					${ ejw.mode eq "endsWith" ? "selected" : ""}>で終わる</option>
 				<option value="match"
-					<%if (ejw.getMode().equals("match"))
-	out.print("selected");%>>一致する</option>
+					${ ejw.mode eq "match" ? "selected" : ""}>一致する</option>
 			</select>
 			<button type="submit" class="btn btn-primary">検索</button>
 		</form>
 		<c:if test="${not empty ejw.searchWord and empty ejw.list }">
 		<p>1件も一致しませんでした</p>
 		</c:if>
-		<c:if test="${not empty ejw.list }"
+		<c:if test="${not empty ejw.list }">
 		<c:if test="${ejw.total le ejw.limit }">
-			<p>全${ejw total}件</p>
+			<p>全${ejw.total}件</p>
 		</c:if>
 		<c:if test="${ejw.total gt ejw.limit}">
-		<p>全${ejw total}件中
+		<p>全${ejw.total}件中
 		${(ejw.pageNo - 1) * ejw.limit + 1}~
 		${ ejw.pageNo * ejw.limit gt ejw.total?
 		ejw.total : ejw.pageNo * ejw.limit}
 		件を表示
 		</p>
 	<ul class="pager">
-	<c:if test "${ ejw.pageNo gt 1} >
-			<li><a
-				href="/ejword/main?searchWord=<%=ejw.getSearchWord()%>
-&mode=<%=ejw.getMode()%>&page=<%=ejw.getPageNo() - 1%>">
-					<span aria-hidden="true">&larr;</span>前へ
-			</a></li>
+	<c:if test= "${ejw.pageNo gt 1}">
+			<li><a href="/ejword/main?searchWord=${ejw.searchWord }&mode=${ejw.mode }&page=${ejw.pageNo-1}">←前へ</a></li>
 		</c:if>
-
-
-
-
-
-
-
-			<%
-			}
-			%>
-			<%
-			if (ejw.getPageNo() * ejw.getLimit() < ejw.getTotal()) {
-			%>
-			<li><a
-				href="/ejword/main?searchWord=<%=ejw.getSearchWord()%>
-&mode=<%=ejw.getMode()%>&page=<%=ejw.getPageNo() + 1%>">次へ
-					<span aria-hidden="true">&rarr;</span>
-			</a></li>
-
-
-			<%}%>
+		<c:if test="${ejw.pageNo * ejw.limit lt ejw.total }">
+			<li><a href="/ejword/main?searchWord=${ejw.searchWord }&mode=${ejw.mode }&page=${ejw.pageNo+1}">次へ→</a></li>
+		</c:if>
 		</ul>
-		<%}%>
-		<table class="table table-bordered table-striped">
-			<%
-			for (Word w : ejw.getList()) {
-			%>
-			<tr>
-				<th><%=w.getTitle()%></th>
-				<td><%=w.getBody()%></td>
-			</tr>
-			<%}%>
-		</table>
-		<%}%>
-		<%
-		if (ejw.getPager() != null) {
-		%>
-		<div class='paginationBox'>
-			<ul class='pagination'>
-				<%
-				for (String[] row : ejw.getPager()) {
-				%>
-				<li class="<%=row[0]%>"><a
-					href="/ejword/main?searchWord=<%=ejw.getSearchWord()%>
-&mode=<%=ejw.getMode()%>&page=<%=row[1]%>"><%=row[2]%></a>
-				</li>
-				<%}%>
-			</ul>
-		</div>
-		<%}%>
+	</c:if>
+	<table class="table table-borderd table-striped">
+		<c:forEach var="w" items="${ejw.list}">
+			<tr><th>${w.title }</th><td>${w.body }</td></tr>
+		</c:forEach>
+	</table>
+	<c:if test="${not empty ejw.pager }">
+	<div class='paginationBox'>
+		<ul class='pagination'>
+		<c:forEach var="row" items="${ejw.pager }">
+			<li class="${row[0] }">
+			<a href="/ejword/main?searchWord=${ejw.searchWord}&mode=${ejw.mode}&page=${row[1]}">${row[2]}</a>
+			</li>
+		</c:forEach>
+		</ul>
 	</div>
-	<footer> &copy; 2022 Joytas.net </footer>
+	</c:if>
+</c:if>
+</div>
+<footer>
+© 2022 Joytas.net
+</footer>
 </body>
 </html>
