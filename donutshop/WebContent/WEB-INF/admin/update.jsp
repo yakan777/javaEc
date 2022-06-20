@@ -1,36 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="model.*"%>
-<%
-Donut donut=(Donut)request.getAttribute("donut");
-%>
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/donutshop/css/admin.css">
 </head>
 <body>
-<form action="/donutshop/Admin/Update" method="post" enctype="multipart/form-data">
-商品名:<input type="text" name="name" value="<%=donut.getName()%>"required><br>
-価格:<input type="number" name="price" step="10" value="<%=donut.getPrice()%>"required><br>
-<img src="/donutshop/upload/<%=donut.getImgname()%>" id="preview"><br>
-商品画像:<input type="file" name="imgname" id="imgname"><br>
-<input type="hidden" name="id" value="<%=donut.getId()%>">
-<input type="hidden" name="orgname" value="<%=donut.getImgname()%>">
-<button type="submit">更新</button>
+<div class="container">
+<form action="/donutshop/Admin/Update" method="Post" enctype="multipart/form-data">
+<div class="form-group">
+<label for="name">商品名</label>
+<input type="text" name="name" id="name" class="form-control" value="${donut.name}" required>
+</div>
+<div class="form-group">
+<label for="price">価格</label>
+<input type="number" name="price" id="price" class="form-control" step="10" value="${donut.price}" required>
+</div>
+<img class="sampleImg" src="/donutshop/upload/${donut.imgname}"><br>
+<div class="form-group">
+<label for="imgname">商品画像</label>
+<input type="file" name="imgname" class="form-control" id="imgname">
+</div>
+<input type="hidden" name="id" value="${donut.id}">
+<input type="hidden" name="orgname" value="${donut.imgname}">
+<button type="submit" class="btn btn-primary">更新</button>
 </form>
-<script>
-window.onload=()=>{
-	const inputFile=document.getElementById("imgname");
-	const previewImg=document.getElementById("preview");
-	const reader=new FileReader();
-	reader.addEventListener("load",()=>{
-		previewImg.src=reader.result;
-	});
-	inputFile.addEventListener("change",()=>{
-		reader.readAsDataURL(inputFile.files[0]);
-	});
-};
-</script>
+</div>
 </body>
 </html>

@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.util.*,model.*"%>
-<%
-List<Donut> list=(List<Donut>)request.getAttribute("list");
-%>
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,14 +14,14 @@ List<Donut> list=(List<Donut>)request.getAttribute("list");
 <div id="wrapper">
 <h1>Donut Menu</h1>
 <div id="menu">
-<%for(Donut d:list){ %>
+<c:forEach var="d" items="${list }" >
 <div>
-<img src="upload/<%=d.getImgname() %>">
-   <p><%=d.getName() %></p>
-        <p><%=d.getPrice() %>円</p>
+<img src="upload/${ d.imgname}">
+   <p>${ d.name}></p>
+        <p>${d.price }円</p>
 
 </div>
-<%} %>
+</c:forEach>
 </div>
 </div>
 </body>
